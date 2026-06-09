@@ -70,7 +70,7 @@ Each Jupyter notebook for this project aimed at investigating specific aspects o
 To find the most demanded skills for the top 3 most popular data roles, I filtered out those positions by which ones werer the most popular, and got the top 5 skills for these top 3 roles. This query highlights the most popular job titles and their top skills, showing which skills I should pay attention to depending on the roles I'm targeting.
 
 View my notebook with detailed steps here:
-[2_skills_demand.ipynb](Job_Data_analysis\2_skill_demand.ipynb)
+[2_skills_demand.ipynb](Project\2_skill_demand.ipynb)
 
 ### Visualize Data
 
@@ -100,7 +100,7 @@ plt.show()
 
 ### Results
 
-![Visualization for Top Skills for Data Nerds](Job_Data_analysis\Images\skill_likelihood_for_top_roles.png)
+![Visualization for Top Skills for Data Nerds](Project\Images\skill_likelihood_for_top_roles.png)
 
 ### Insights
 
@@ -114,7 +114,7 @@ plt.show()
 
 To find how skills are trending in 2023 for Data Analysts, I filtered data analyst positions and grouped the skills by the month of the job postings. This got me the top 5 skills of data analysts by month, showing how popular skills were throughout 2023.
 
-View my notebook with detailed steps here: [3_Skills_Trend](Job_Data_analysis\3_Skills_Trend.ipynb).
+View my notebook with detailed steps here: [3_Skills_Trend](Project\3_Skills_Trend.ipynb).
 
 ### Visualize Data
 
@@ -138,7 +138,7 @@ plt.show()
 
 ### Results
 
-![Trending Top Skills for Data Analysts in India](Job_Data_analysis\Images\skill_Trend_DA.png) </br>
+![Trending Top Skills for Data Analysts in India](Project\Images\skill_Trend_DA.png) </br>
 *Bar graph visualizing the trending top skills for data analysts in India in 2023.*
 
 ### Insights:
@@ -152,7 +152,7 @@ plt.show()
 
 To identify the highest-paying roles and skills, I only got jobs in the United States and looked at their median salary. But first I looked at the salary distributions of common data jobs like Data Scientist, Data Engineer, and Data Analyst, to get an idea of which jobs are paid the most. 
 
-View my notebook with detailed steps here: [4_Salary_Analysis](Job_Data_analysis\4_Salary_Analysis.ipynb).
+View my notebook with detailed steps here: [4_Salary_Analysis](Project\4_Salary_Analysis.ipynb).
 
 ### Visualize the Data
 
@@ -170,7 +170,7 @@ plt.show()
 ```
 
 ### Results
-![Salary Distributions of the Data Jobs in the US](Job_Data_analysis\Images\Salary_boxplot.png)</br>
+![Salary Distributions of the Data Jobs in the US](Project\Images\Salary_boxplot.png)</br>
 *Bar plot visualizingthe salary distributions for the top 6 data job titles.*
 
 ### Insights:
@@ -213,7 +213,7 @@ plt.show()
 
 Here's the breakdown of the highest-paid & most in-demand skills for data analysts in the US:
 
-![The Highest Paid 7 Most In-Demand Skills for Data Analysts in the US](Job_Data_analysis\Images\Highest_paid_and_most_demanded_skills.png)</br>
+![The Highest Paid 7 Most In-Demand Skills for Data Analysts in the US](Project\Images\Highest_paid_and_most_demanded_skills.png)</br>
 *Two separate bar graphs visualizing the highest paid skills and most in-demand skils for data analysts in India.*
 
 ### Insights:
@@ -229,7 +229,7 @@ Here's the breakdown of the highest-paid & most in-demand skills for data analys
 
 To identify the most optimal skills to learn ( the ones that are the highest paid and highest in demand) I calculated the percent of skill demand and the median salary of these skills. To easily identify which are the most optimal skills to learn. 
 
-View my notebook with detailed steps here: [5_optimal_skills](Job_Data_analysis\5_optimal_skills.ipynb).
+View my notebook with detailed steps here: [5_optimal_skills](Project\5_optimal_skills.ipynb).
 
 #### Visualize Data
 
@@ -264,7 +264,7 @@ plt.show()
 
 ### Results
 
-![Most Optimal Skills for Data Analysts in the US](Job_Data_analysis\Images\Most_optima_skills_to_learn_DA_US.png)
+![Most Optimal Skills for Data Analysts in the US](Project\Images\Most_optima_skills_to_learn_DA_US.png)
 *A scatter plot visualizing the most optimal skills (high paying & high demand) for data analysts in the US.*
 
 ### Insights:
@@ -318,7 +318,7 @@ plt.show()
 
 ### Results
 
-![Most Optimal Skills for Data Analysts in the US with Coloring by Technology](Job_Data_analysis\Images\Most_optimal_tech_to_learn_US.png)  
+![Most Optimal Skills for Data Analysts in the US with Coloring by Technology](Project\Images\Most_optimal_tech_to_learn_US.png)  
 *A scatter plot visualizing the most optimal skills (high paying & high demand) for data analysts in the US with color labels for technology.*
 
 
